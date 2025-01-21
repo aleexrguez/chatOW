@@ -1,7 +1,7 @@
 extends layout
 
 block content
-  h1= title
+  h1= Chat OW ALESSANDRO
   h2#numClientes
   ul#mensajes
   div   
@@ -38,4 +38,3 @@ block content
     socket.on('num_clientes', num =>{
       numClientes.innerText = `Clientes conectados: ${num}`;
     });
-    
